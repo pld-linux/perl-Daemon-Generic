@@ -9,7 +9,7 @@ Summary:	Daemon::Generic - framework to provide start/stop/reload for a daemon
 #Summary(pl.UTF-8):	Daemon::Generic -
 Name:		perl-Daemon-Generic
 Version:	0.61
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -56,6 +56,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc CHANGELOG README
+%{perl_vendorlib}/Daemon
 %{perl_vendorlib}/Daemon/*.pm
 %{perl_vendorlib}/Daemon/Generic
 %{_mandir}/man3/*
