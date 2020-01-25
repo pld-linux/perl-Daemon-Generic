@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Daemon
 %define	pnam	Generic
 Summary:	Daemon::Generic - framework to provide start/stop/reload for a daemon
